@@ -1,0 +1,151 @@
+nav {
+  width: 100%;
+  background: #4382ac;
+  color: #ffffff;
+  padding: 4px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.sign-btn {
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  background: transparent;
+  color: #ffffff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.sign-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-1px);
+}
+
+.logout-btn {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+.logo {
+  width: 120px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0;
+  font-size: 16px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.dark-nav {
+  background: #212ea0;
+  transition: 0.5s;
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    width: 140px;
+  }
+
+  nav ul li {
+    margin: 10px 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu-icon {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 12px;
+  }
+
+  nav {
+    padding: 15px 16px;
+  }
+
+  .nav-right {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
+    background: #2121ae;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 20px 24px;
+    gap: 24px;
+    transition: right 0.3s ease;
+    z-index: 20;
+  }
+
+  .nav-right.open {
+    right: 0;
+  }
+
+  .nav-left {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav ul li {
+    margin: 18px 0;
+  }
+
+  .nav-actions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .nav-actions .sign-btn {
+    width: 100%;
+  }
+
+  .nav-left img.logo {
+    width: 110px;
+  }
+}

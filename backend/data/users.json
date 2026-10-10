@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "email": "admin@educity.com",
+    "password": "ef92b778bafe771e89245b89ecbcbe0b9d9f9c96a151a8692d52f27e269d8e76",
+    "isAdmin": true,
+    "purchasedCourses": []
+  },
+  {
+    "id": 2,
+    "username": "sajid121",
+    "email": "syntaxe4ror@gmail.com",
+    "password": "71005ea30d93261910426c6e4dced1e2d96fe3feb0d6de72103facd8f5a9e4d1",
+    "isAdmin": false,
+    "purchasedCourses": []
+  },
+  {
+    "id": 3,
+    "username": "sajid1213",
+    "email": "syntax4ror@gmail.com",
+    "password": "c8a8ca1418a0afaf9ee471d5ebca44a5829bb2b36f39d0afbcd4c39a9496818b",
+    "isAdmin": false,
+    "purchasedCourses": []
+  }
+]

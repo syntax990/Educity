@@ -1,0 +1,37 @@
+.campus {
+  margin: 80px auto;
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 20px;
+  background-color: rgb(229, 220, 207);
+}
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.gallery img {
+  width: 23%;
+  border-bottom: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 10px;
+}
+.btn.dark-btn {
+  background: #212ea0;
+  color: aliceblue;
+}
+
+@media (max-width: 800px) {
+  .gallery {
+    flex-wrap: wrap;
+  }
+  .gallery img {
+    width: 48%;
+    margin-bottom: 25px;
+  }
+}
