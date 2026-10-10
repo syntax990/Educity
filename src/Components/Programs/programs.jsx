@@ -8,7 +8,7 @@ import program_icon_1 from '../../assets/program_icon_1.png'
 import program_icon_2 from '../../assets/program_icon_2.png'
 import certificate_icon from '../../assets/certificate_icon.png'
 import certificate_icon1 from '../../assets/certificate_icon1.png'
-import ProgramCard from '../programCard'
+import ProgramCard from '../ProgramCard'
 
 
 
