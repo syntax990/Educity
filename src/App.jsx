@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Hero from "./Components/Hero/Hero.jsx";
 import Navbar from "./Components/navbar/Navbar.jsx";
-import Programs from './Components/Programs/programs-temp.jsx'
+import Programs from "./Components/Programs/programs-temp.jsx";
 import Title from "./Components/Title/Title.jsx";
 import About from "./Components/About/About.jsx";
 import Campus from "./Components/Campus/Campus.jsx";
